@@ -1,0 +1,75 @@
+<html>
+
+    <head>
+
+        <title>HTML Form</title>
+        
+        <style>
+            
+            textarea {
+                margin-bottom: 20px;
+                border: 2px solid lightgrey;
+            }
+            
+            form {
+                margin-left: 40px;
+            }
+            
+            body {
+                font-size: 32px;
+            }
+            
+            input {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+                border: 2px solid lightgrey;
+            }
+            
+            button{
+                background-color: grey;
+                border: none;
+                width: 130px;
+                height: 50px;
+                font-size: 20px;
+                margin-right: 20px;
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1>Give Feedback to Our Website.</h1>
+        
+        <form action="mailto:DGBratoevski20@codingburgas.bg>
+            
+            <label for="name">Name:
+                <input type="text" name="name">
+            </label>
+            
+            <br>
+            
+            <label for="mail">Email:
+                <input type="email" name"mail">
+            </label>
+            
+            <br>
+            
+            <label for="comment">Comments:</label>
+            
+            <br>
+            
+                <textarea name="comment" cols="40" rows="15" placeholder="Send your comments to us."></textarea>
+            
+            <br>
+            
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            
+        </form>
+        
+    </body>
+
+</html>

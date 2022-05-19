@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-color: white;
+  color: rgb(7, 12, 12);
+  text-align: center;
+}
+
+h2 {
+  color: black;
+}
+
+p{
+  color:#f1f1f1;
+  font-size: 95%;
+  text-align: justify;
+}
+
+h1, h2{
+  text-align: center;
+  color: rgb(0, 167, 170);
+  font-family: Crimsontext;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: darkturquoise; /* Fallback color */
+  background: rgba(0, 255, 213, 0.5); /* Background with 0.5 opacity */
+  color: rgb(1, 2, 2);
+  width: 100%;
+  padding: 15px;
+}
